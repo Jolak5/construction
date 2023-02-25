@@ -1,0 +1,305 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+img,
+article,
+div,
+nav {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+h4 {
+  color: #f08700;
+  font-size: 1.5rem;
+}
+
+h5 {
+  color: #00a6a6;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  grid-template-rows: auto;
+  padding: 3% 5% 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  text-align: end;
+}
+
+nav > a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+nav > button {
+  margin-left: 20px;
+  background-color: #f08700;
+  padding: 10px 15px;
+  gap: 16px;
+
+  border: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10% 0 0;
+  padding: 0 0 25%;
+  gap: 20px;
+  background-image: url('images/herobackground.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+h1 {
+  color: #00a6a6;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.hero > p {
+  font-family: inter;
+  padding: 0 25%;
+}
+
+.herobtn1,
+.herobtn2 {
+  padding: 10px 20px;
+  color: black;
+  margin-left: 30px;
+}
+
+.herobtn1 {
+  background-color: #f08700;
+  border: 1px solid #f08700;
+}
+
+.herobtn2 {
+  border: 1px solid #f08700;
+  background-color: white;
+}
+
+.helmet {
+  position: absolute;
+  right: 0;
+  width: 20%;
+}
+
+/* pictures section */
+
+.pictures {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #f08700;
+  justify-content: center;
+}
+
+.left-picture {
+  width: 100%;
+}
+
+.right-pictures {
+  background-color: #f08700;
+  /* width: 100%;
+  height: 100%; */
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+  order: 6;
+  height: 80%;
+}
+
+.abs1 {
+  order: 0;
+  top: -30%;
+  left: 20%;
+}
+
+.abs3 {
+  order: 1;
+  top: 30%;
+  left: 30%;
+  height: 60%;
+}
+
+.abs4 {
+  order: 2;
+  height: auto;
+  left: -50px;
+  top: 150px;
+}
+
+.abs5 {
+  order: 3;
+  height: auto;
+  left: 500px;
+  top: -200px;
+}
+
+/* trustee section */
+
+.trustee {
+  text-align: center;
+  margin: 100px;
+}
+
+.trustee > h4 {
+  color: #00a6a6;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+
+.trustee-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.companies {
+  width: 70px;
+}
+
+/* about us */
+
+.about-us {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: auto;
+  justify-content: center;
+  padding: 5% 5%;
+  gap: 5%;
+  background-image: url('images/about\ us\ background.svg');
+  background-size: cover;
+  align-items: center;
+}
+
+.left-about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-about > p {
+  line-height: 2rem;
+}
+
+.right-about > img {
+  width: 100%;
+}
+
+/* CTA section */
+
+.CTA {
+  display: flex;
+  align-items: center;
+  background-color: #f08700;
+  padding: 0 5%;
+}
+
+.CTA > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.CTA > div > h4 {
+  color: white;
+}
+
+.CTA > p {
+  color: black;
+}
+
+.CTA > div > button {
+  color: black;
+  padding: 10px 20px;
+}
+
+/* footer section */
+
+footer {
+  padding: 5% 10%;
+}
+
+.top-footer {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  justify-content: space-between;
+}
+
+.sign {
+  background-color: #f08700;
+  padding: 5px 20px;
+  border: 0;
+  color: white;
+}
+
+.subscribe {
+  color: white;
+  padding: 5px;
+  background-color: #000000;
+  border: 0;
+}
+
+.lower-footer {
+  display: grid;
+  grid-template-columns: 20% 60%;
+  gap: 20%;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+.left-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-footer > p {
+  line-height: 2rem;
+}
+
+.lower-menu {
+  display: grid;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+.footer-line {
+  width: 80%;
+}

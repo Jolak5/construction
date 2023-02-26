@@ -215,7 +215,36 @@ h1 {
 }
 
 .right-about > img {
+  width: 80%;
+}
+
+/* Portfolio section */
+
+.portfolio {
+  padding: 10% 10%;
+}
+
+.top-portfolio {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.top-portfolio > div > img {
   width: 100%;
+}
+
+.lower-portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 2.5%;
+}
+
+.lower-portfolio > img {
+  width: 23%;
 }
 
 /* CTA section */

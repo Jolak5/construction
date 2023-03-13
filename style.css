@@ -284,14 +284,15 @@ h1 {
 
 .top-portfolio {
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 40% 50%;
   grid-template-rows: auto;
   justify-content: left;
-  /* align-items: center; */
+  gap: 5%;
+  align-items: center;
 }
 
 .top-portfolio > div > img {
-  width: 400px;
+  width: 100%;
 }
 
 .top-portfolio > div > h5 {
@@ -315,6 +316,7 @@ h1 {
 
 .lower-portfolio > img {
   width: 10%;
+  cursor: pointer;
 }
 
 /* CTA section */
